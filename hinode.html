@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hinode.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="hinode.js" defer></script>
+    <title>Hinode</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-infos">
+            <p>A Empresa</p>
+            <div class="text-right">
+                <a href="#">SEJA UM CONSULTOR</a>
+                <p>Fale Conosco</p>
+            </div>
+        </div>
+
+        <div class="header-center">
+            <img class="logo" src="assets/Img/image 151.png" alt="#">
+            <div class="busca">
+                <input type="text" id="txtBusca" placeholder="Buscar..." />
+            </div>
+            <div class="login">
+                <p class="text">Olá Visitante,</p>
+                <h1>ENTRE OU CADASTRE-SE</h1>
+            </div>
+            <div class="favoritos">
+                <h2>FAVORITOS</h2>
+            </div>
+            <div class="sacola">
+                <svg width="21" height="25" viewBox="0 0 21 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M4.66667 8.16667V5.83333C4.66667 4.28624 5.28125 2.80251 6.37521 1.70854C7.46917 0.614582 8.9529 0 10.5 0C12.0471 0 13.5308 0.614582 14.6248 1.70854C15.7188 2.80251 16.3333 4.28624 16.3333 5.83333V8.16667H19.8333C20.1428 8.16667 20.4395 8.28958 20.6583 8.50838C20.8771 8.72717 21 9.02391 21 9.33333V23.3333C21 23.6428 20.8771 23.9395 20.6583 24.1583C20.4395 24.3771 20.1428 24.5 19.8333 24.5H1.16667C0.857247 24.5 0.560501 24.3771 0.341709 24.1583C0.122916 23.9395 0 23.6428 0 23.3333V9.33333C0 9.02391 0.122916 8.72717 0.341709 8.50838C0.560501 8.28958 0.857247 8.16667 1.16667 8.16667H4.66667ZM4.66667 10.5H2.33333V22.1667H18.6667V10.5H16.3333V12.8333H14V10.5H7V12.8333H4.66667V10.5ZM7 8.16667H14V5.83333C14 4.90508 13.6313 4.01484 12.9749 3.35846C12.3185 2.70208 11.4283 2.33333 10.5 2.33333C9.57174 2.33333 8.6815 2.70208 8.02513 3.35846C7.36875 4.01484 7 4.90508 7 5.83333V8.16667Z"
+                        fill="#AA8232" />
+                </svg>
+                <h3>SACOLA</h3>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="nav">
+                <ul>
+                    <li><a href="#">TODAS AS CATEGORIAS</a></li>
+                    <li><a href="#">FRAGÃNCIAS</a></li>
+                    <li><a href="#">MAQUIAGEM</a></li>
+                    <li><a href="#">CORPO & BANHO</a></li>
+                    <li><a href="#">VIDA SAÚDAVEL</a></li>
+                    <li><a href="#">ENERGIA E PERFORMANCE</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="carrossel">
+            <div class="container" id="img">
+                <img src="assets/Img/carrossel1.png" alt="#">
+                <img src="assets/Img/carrossel2.png" alt="#">
+                <img src="assets/Img/carrossel3.png" alt="#">
+                <img src="assets/Img/carrossel4.png" alt="#">
+                <img src="assets/Img/carrossel5.png" alt="#">
+                <img src="assets/Img/carrossel6.png" alt="#">
+                <img src="assets/Img/carrossel7.png" alt="#">
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-items">
+                <ul>
+                    <li class="cartao">
+                        <p>Tudo em até</br> 6x sem juros</p>
+                    </li>
+                    <li class="frete">
+                        <p>FRETE GRÁTIS nas compras acima</br> de R$ 49,00 para todo o Brasil</p>
+                    </li>
+                    <li class="off">
+                        <p>Hinode Prime: Receba em</br> casa todo mês com 20% OFF</p>
+                    </li>
+                    <li class="garantia">
+                        <p>Garantia mais economia</br> com frete inteligente</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="titulo-section">
+            <h3>MAIS VENDIDOS</h3>
+            <div class="vertodos">
+                <a href="#">Ver todos</a>
+            </div>
+        </div>
+        <section>
+            <ul class="vitrine">
+                <li class="vitrine-item">
+                    <img src="assets/Img/image 153.png">
+                    <span class="nome-produto">Esponja 3D </br>Dazzle</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 29,90</span>
+                    </div>
+
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/image 144.png">
+                    <span class="nome-produto">Base Líquida Hydra Dazzle Escuro 2 - 500g</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 89,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/image 153.png">
+                    <span class="nome-produto">Grace La Rose Sublime Deo Colônia Pocket
+                        15ml</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 39,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+
+
+                <li class="vitrine-item">
+                    <img src="assets/Img/image 154.png">
+                    <span class="nome-produto">Pó Compacto HD Cover</br>Claro 2 Dazzle - 12g</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/image 154.png">
+                    <span class="nome-produto">Pó Compacto HD Cover</br>Claro 2 Dazzle - 12g</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>x
+            </ul>
+        </section>
+        <div class="titulo-section">
+            <h3>Isso pode ser do seu interesse</h3>
+        </div>
+        <div class="quatro-banners">
+            <ul>
+                <li>
+                    <img src="assets/Img/imagem-banner-1.png" />
+                    <a class="ver-mais" href="#">VER MAIS</a>
+                </li>
+                <li>
+                    <img src="assets/Img/imagem-banner-1.png" />
+                    <a class="ver-mais" href="#">VER MAIS</a>
+                </li>
+                <li>
+                    <img src="assets/Img/imagem-banner-1.png" />
+                    <a class="ver-mais" href="#">VER MAIS</a>
+                </li>
+                <li>
+                    <img src="assets/Img/imagem-banner-1.png" />
+                    <a class="ver-mais" href="#">VER MAIS</a>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="banner-produto">
+            <div class="produto-item">
+                <img src="assets/Img/vitrine1.png" alt="">
+                <div class="caixa-info">
+                    <span class="nome-produto">
+                        Venyx L’Or</br>
+                        100ml
+                    </span>
+                    <span class="preço">R$150,00</span>
+                    <p>em até 2x de R$ 75,00</p>
+
+                </div>
+                <button>COMPRAR</button>
+            </div>
+
+            <div class="produto-item">
+                <img src="assets/Img/vitrine2.png" alt="">
+                <div class="caixa-info">
+
+                    <span class="nome-produto">
+                        Multi- Vit Complex A-Z Mulheres 60 Cápsulas
+                    </span>
+                    <span class="preço">R$85,00</span>
+                    <p>em até 2x de R$ 42,50</p>
+
+
+                </div>
+                <button>COMPRAR</button>
+            </div>
+
+        </div>
+        <div class="titulo-section">
+            <h3>OS MAIS DESEJADOS</h3>
+            <div class="vertodos">
+                <a href="#">Ver todos</a>
+            </div>
+        </div>
+        <section>
+            <ul class="vitrine">
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-modelador.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 29,90</span>
+                    </div>
+
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <div class="flag">-20%</div>
+                    <img src="assets/Img/shake1.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 89,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <div class="flag">-20%</div>
+                    <img src="assets/Img/shake2.png">
+                    <span class="nome-produto">Luva de Silicone Creme para as Mãos Hands 100g</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 39,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/luva-silicone.png">
+                    <span class="nome-produto">Luva de Silicone Creme para as Mãos Hands 100g</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/luva-silicone.png">
+                    <span class="nome-produto">Luva de Silicone Creme para as Mãos Hands 100g</span>
+                    <div class="preços">
+                        <span class="preço-cortado">R$ 36,90</span>
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+            </ul>
+        </section>
+        <div class="titulo-section">
+            <h3>Vida Saudável</h3>
+            <div class="vertodos">
+                <a href="#">Ver todos</a>
+            </div>
+        </div>
+        <section>
+            <ul class="vitrine">
+                <li class="vitrine-item">
+                    <img src="assets/Img/café-verde.png">
+                    <span class="nome-produto">Café Verde
+                        120 cápsulas</span>
+                    <div class="preços">
+
+                        <span class="preço">R$ 29,90</span>
+                    </div>
+
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/slim.png">
+                    <span class="nome-produto">Slim Max HND
+                        120 Cápsulas</span>
+                    <div class="preços">
+
+                        <span class="preço">R$ 89,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/slim.png">
+                    <span class="nome-produto">Slim Max HND
+                        120 Cápsulas</span>
+                    <div class="preços">
+
+                        <span class="preço">R$ 39,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/chá-h.png">
+                    <span class="nome-produto">Chá H+ Frutas Vermelhas
+                        150g</span>
+                    <div class="preços">
+
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/chá-h.png">
+                    <span class="nome-produto">Chá H+ Frutas Vermelhas
+                        150g</span>
+                    <div class="preços">
+
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+            </ul>
+        </section>
+        <section class="banner-centro">
+
+            <a href><img src="assets/Img/banner-centro.png" /></a>
+        </section>
+        <div class="titulo-section">
+            <h3>CORPO E BANHO</h3>
+            <div class="vertodos">
+                <a href="#">Ver todos</a>
+            </div>
+        </div>
+        <section>
+            <ul class="vitrine">
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-masssagem.png">
+                    <span class="nome-produto">Corps Lígnea Wonderful Gold Óleo para as Pernas - 150ml </span>
+                    <div class="preços">
+                        <span class="preço">R$ 29,90</span>
+                    </div>
+
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/esfoliante.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Esfoliante Corporal - 200g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 89,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-massagem2.png">
+                    <span class="nome-produto">Gel para Massagem Feelin Hot Morango
+                        60ml</span>
+                    <div class="preços">
+                        <span class="preço">R$ 39,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/oleo-pernas.png">
+                    <span class="nome-produto">Óleo para as Pernas Wonderful
+                        140ml</span>
+                    <div class="preços">
+
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/oleo-pernas.png">
+                    <span class="nome-produto">Óleo para as Pernas Wonderful
+                        140ml</span>
+                    <div class="preços">
+
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+            </ul>
+        </section>
+        <section class="vitrine-secundaria">
+            <ul class="vitrine">
+                <li class="vitrine-item">
+
+                    <img src="assets/Img/gel-modelador1.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 29,90</span>
+                    </div>
+
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+
+                    <img src="assets/Img/gel-modelador2.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 89,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-modelador3.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 39,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-modelador4.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-modelador4.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+            </ul>
+        </section>
+        <div class="banner-centro-sec">
+            <div>
+                <img src="assets/Img/Group 79.png" alt="">
+            </div>
+
+            <div class="conteudo">
+                <h1>Linha EMPIRE</h1>
+                <p>Escolha a sua fragrância masculina favorita e desperte as melhores sensações.</p>
+                <button>CONHEÇA NOSSOS PRODUTOS</button>
+            </div>
+        </div>
+        <div class="titulo-section">
+            <h3>fragrâncias</h3>
+            <div class="vertodos">
+                <a href="#">Ver todos</a>
+            </div>
+        </div>
+        <section>
+            <ul class="vitrine">
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-masssagem.png">
+                    <span class="nome-produto">Corps Lígnea Wonderful Gold Óleo para as Pernas - 150ml </span>
+                    <div class="preços">
+                        <span class="preço">R$ 29,90</span>
+                    </div>
+
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/esfoliante.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Esfoliante Corporal - 200g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 89,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-massagem2.png">
+                    <span class="nome-produto">Gel para Massagem Feelin Hot Morango
+                        60ml</span>
+                    <div class="preços">
+                        <span class="preço">R$ 39,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/oleo-pernas.png">
+                    <span class="nome-produto">Óleo para as Pernas Wonderful
+                        140ml</span>
+                    <div class="preços">
+
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/oleo-pernas.png">
+                    <span class="nome-produto">Óleo para as Pernas Wonderful
+                        140ml</span>
+                    <div class="preços">
+
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+            </ul>
+        </section>
+        <section class="vitrine-secundaria">
+            <ul class="vitrine">
+                <li class="vitrine-item">
+
+                    <img src="assets/Img/gel-modelador1.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 29,90</span>
+                    </div>
+
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+
+                    <img src="assets/Img/gel-modelador2.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 89,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-modelador3.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 39,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-modelador4.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+                <li class="vitrine-item">
+                    <img src="assets/Img/gel-modelador4.png">
+                    <span class="nome-produto">Corps Lígnea Body Contour Gel Modelador
+                        500g</span>
+                    <div class="preços">
+                        <span class="preço">R$ 46,90</span>
+                    </div>
+                    <button>COMPRAR</button>
+                </li>
+            </ul>
+        </section>
+        <div class="vitrine-final">
+            <div class="titulo-section">
+                <h3>acabaram de chegar</h3>
+            </div>
+            <section>
+                <ul class="vitrine">
+                    <li class="vitrine-item">
+                        <img src="assets/Img/colonia.png">
+                        <span class="nome-produto">Deo Colônia Venyx L’Or
+                            100ml </span>
+                        <div class="preços">
+                            <span class="preço">R$ 150,00</span>
+                        </div>
+
+                        <button>COMPRAR</button>
+                    </li>
+                    <li class="vitrine-item">
+                        <img src="assets/Img/desodorante.png">
+                        <span class="nome-produto">Desodorante Roll On Dynamic</span>
+                        <div class="preços">
+                            <span class="preço">R$ 17,90</span>
+                        </div>
+                        <button>COMPRAR</button>
+                    </li>
+                    <li class="vitrine-item">
+                        <img src="assets/Img/sabonete.png">
+                        <span class="nome-produto">Erva Doce Sabonete Cremoso Facial Hinode
+                            250ml</span>
+                        <div class="preços">
+                            <span class="preço">R$ 33,40</span>
+                        </div>
+                        <button>COMPRAR</button>
+                    </li>
+                    <li class="vitrine-item">
+                        <img src="assets/Img/shakechocolate.png">
+                        <span class="nome-produto">HND Shake Triple Chocolate
+                            450g</span>
+                        <div class="preços">
+
+                            <span class="preço">R$ 109,90</span>
+                        </div>
+                        <button>COMPRAR</button>
+                    </li>
+                    <li class="vitrine-item">
+                        <img src="assets/Img/shakechocolate.png">
+                        <span class="nome-produto">HND Shake Triple Chocolate
+                            450g</span>
+                        <div class="preços">
+                            <span class="preço">R$ 109,90</span>
+                        </div>
+                        <button>COMPRAR</button>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <div class="newsletter">
+            <div class="newsletter-centro">
+                <span>
+                    Receba nossas</br>
+                    ofertas e novidades
+                </span>
+                <form>
+                    <input type="text" name="nome" placeholder="Digite seu nome" />
+                    <input type="email" name="email" placeholder="Digite seu email" />
+                    <button>CADASTRAR</button>
+                </form>
+            </div>
+        </div>
+
+        </div>
+        <div class="footer-conteudo">
+            <div class="footer-centro">
+                <div class="footer-item">
+                    <h4>GRUPO HINODE</h4>
+                    <ul>
+                        <li>
+                            A Empresa
+                        </li>
+                        <li>
+                            Catálogo Hinode
+                        </li>
+                        <li>
+                            Seja um Consultor
+                        </li>
+                        <li>
+                            Hinode Prime
+                        </li>
+                        <li>
+                            Frete Inteligente
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>GRUPO HINODE</h4>
+                    <ul>
+                        <li>
+                            A Empresa
+                        </li>
+                        <li>
+                            Catálogo Hinode
+                        </li>
+                        <li>
+                            Seja um Consultor
+                        </li>
+                        <li>
+                            Hinode Prime
+                        </li>
+                        <li>
+                            Frete Inteligente
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <h4>GRUPO HINODE</h4>
+                    <ul>
+                        <li>
+                            A Empresa
+                        </li>
+                        <li>
+                            Catálogo Hinode
+                        </li>
+                        <li>
+                            Seja um Consultor
+                        </li>
+                        <li>
+                            Hinode Prime
+                        </li>
+                        <li>
+                            Frete Inteligente
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <button>CENTRAL DE ATENDIMENTO</button>
+                    <span class="texto-item">
+                        <p> De segunda a sexta das 9h às 21h</p>
+                        <p>Capitas e regiões metropolitanas 4020-2424</p>
+                        <p> localidades: 0800-144-6633</p>
+                    </span>
+                    <div class="social">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 14C18.4087 14 16.8826 14.6321 15.7574 15.7574C14.6321 16.8826 14 18.4087 14 20C14 21.5913 14.6321 23.1174 15.7574 24.2426C16.8826 25.3679 18.4087 26 20 26C21.5913 26 23.1174 25.3679 24.2426 24.2426C25.3679 23.1174 26 21.5913 26 20C26 18.4087 25.3679 16.8826 24.2426 15.7574C23.1174 14.6321 21.5913 14 20 14ZM20 10C22.6522 10 25.1957 11.0536 27.0711 12.9289C28.9464 14.8043 30 17.3478 30 20C30 22.6522 28.9464 25.1957 27.0711 27.0711C25.1957 28.9464 22.6522 30 20 30C17.3478 30 14.8043 28.9464 12.9289 27.0711C11.0536 25.1957 10 22.6522 10 20C10 17.3478 11.0536 14.8043 12.9289 12.9289C14.8043 11.0536 17.3478 10 20 10V10ZM33 9.5C33 10.163 32.7366 10.7989 32.2678 11.2678C31.7989 11.7366 31.163 12 30.5 12C29.837 12 29.2011 11.7366 28.7322 11.2678C28.2634 10.7989 28 10.163 28 9.5C28 8.83696 28.2634 8.20107 28.7322 7.73223C29.2011 7.26339 29.837 7 30.5 7C31.163 7 31.7989 7.26339 32.2678 7.73223C32.7366 8.20107 33 8.83696 33 9.5V9.5ZM20 4C15.052 4 14.244 4.014 11.942 4.116C10.374 4.19 9.322 4.4 8.346 4.78C7.478 5.116 6.852 5.518 6.186 6.186C5.56001 6.7908 5.07871 7.52917 4.778 8.346C4.398 9.326 4.188 10.376 4.116 11.942C4.012 14.15 4 14.922 4 20C4 24.948 4.014 25.756 4.116 28.058C4.19 29.624 4.4 30.678 4.778 31.652C5.118 32.522 5.518 33.148 6.182 33.812C6.856 34.484 7.482 34.886 8.342 35.218C9.33 35.6 10.382 35.812 11.942 35.884C14.15 35.988 14.922 36 20 36C24.948 36 25.756 35.986 28.058 35.884C29.622 35.81 30.676 35.6 31.652 35.222C32.518 34.884 33.148 34.482 33.812 33.818C34.486 33.144 34.888 32.518 35.22 31.658C35.6 30.672 35.812 29.618 35.884 28.058C35.988 25.85 36 25.078 36 20C36 15.052 35.986 14.244 35.884 11.942C35.81 10.378 35.6 9.322 35.22 8.346C34.9186 7.53 34.4382 6.79192 33.814 6.186C33.2095 5.55969 32.471 5.07833 31.654 4.778C30.674 4.398 29.622 4.188 28.058 4.116C25.85 4.012 25.078 4 20 4ZM20 0C25.434 0 26.112 0.0199999 28.244 0.12C30.374 0.22 31.824 0.554 33.1 1.05C34.42 1.558 35.532 2.246 36.644 3.356C37.661 4.35579 38.4479 5.56518 38.95 6.9C39.444 8.174 39.78 9.626 39.88 11.756C39.974 13.888 40 14.566 40 20C40 25.434 39.98 26.112 39.88 28.244C39.78 30.374 39.444 31.824 38.95 33.1C38.4494 34.4356 37.6623 35.6452 36.644 36.644C35.6439 37.6606 34.4346 38.4475 33.1 38.95C31.826 39.444 30.374 39.78 28.244 39.88C26.112 39.974 25.434 40 20 40C14.566 40 13.888 39.98 11.756 39.88C9.626 39.78 8.176 39.444 6.9 38.95C5.56465 38.449 4.35506 37.6619 3.356 36.644C2.33881 35.6444 1.55186 34.4349 1.05 33.1C0.554 31.826 0.22 30.374 0.12 28.244C0.0259999 26.112 0 25.434 0 20C0 14.566 0.0199999 13.888 0.12 11.756C0.22 9.624 0.554 8.176 1.05 6.9C1.55047 5.56436 2.33761 4.35464 3.356 3.356C4.35534 2.33846 5.56486 1.55146 6.9 1.05C8.176 0.554 9.624 0.22 11.756 0.12C13.888 0.0259999 14.566 0 20 0Z"
+                                fill="#00002D" />
+                        </svg>
+                        <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M35.212 5.99C35.06 5.394 34.628 4.944 34.134 4.806C33.26 4.56 29 4 20 4C11 4 6.744 4.56 5.862 4.806C5.374 4.942 4.942 5.392 4.788 5.99C4.57 6.838 4 10.392 4 16C4 21.608 4.57 25.16 4.788 26.012C4.94 26.606 5.372 27.056 5.864 27.192C6.744 27.44 11 28 20 28C29 28 33.258 27.44 34.138 27.194C34.626 27.058 35.058 26.608 35.212 26.01C35.43 25.162 36 21.6 36 16C36 10.4 35.43 6.84 35.212 5.99ZM39.086 4.996C40 8.56 40 16 40 16C40 16 40 23.44 39.086 27.004C38.578 28.974 37.092 30.524 35.21 31.048C31.792 32 20 32 20 32C20 32 8.214 32 4.79 31.048C2.9 30.516 1.416 28.968 0.914 27.004C5.96046e-08 23.44 0 16 0 16C0 16 5.96046e-08 8.56 0.914 4.996C1.422 3.026 2.908 1.476 4.79 0.952C8.214 -3.57628e-07 20 0 20 0C20 0 31.792 -3.57628e-07 35.21 0.952C37.1 1.484 38.584 3.032 39.086 4.996V4.996ZM16 23V9L28 16L16 23Z"
+                                fill="#00002D" />
+                        </svg>
+                        <svg width="21" height="40" viewBox="0 0 21 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14 23H19L21 15H14V11C14 8.94 14 7 18 7H21V0.28C20.348 0.194 17.886 0 15.286 0C9.856 0 6 3.314 6 9.4V15H0V23H6V40H14V23Z"
+                                fill="#00002D" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="cnpj">
+                <p>
+                    OBJETIVO - CNPJ n 30.318.916/0001-55, Presidente Getulio Vargas, 146 - Centro, Extrema-MG - CEP:
+                    37655-000
+                </p>
+            </div>
+            <div class="imgfooter">
+                <img src="assets/Img/image 151.png" alt="">
+            </div>
+            <div class="texto">
+                <p>As regras, ofertas e condições de pagamento praticadas no e-commerce oficial da marca são exclusivas
+                    para os pedidos realizados através do site <a href="#">www.hinode.com.br</a>, podendo os preços e
+                    benefícios divergirem dos que são praticados pelos consultores do Grupo Hinode.</p>
+                </br>
+                <p>Todas as promoções, descontos e preços são válidos somente por um período limitado e podem ser
+                    alterados ou encerrados a qualquer momento sem prévio aviso. <strong>O desconto oferecido para
+                        pagamentos por Boleto bancário não se aplica aos pedidos com desconto Hinode Prime.</strong>
+                </p>
+                </br>
+                <p> Com o objetivo de personalizar a experiência de compra e oferecer um site melhor, cookies e outras
+                    tecnologias poderão ser utilizados durante a navegação, para coletar informações técnicas e compilar
+                    estatísticas de monitoramento de uso do site. Os usuários que pretendam bloquear esses recursos,
+                    deverão acessar as configurações necessários no navegador de Internet ou realizar o procedimento
+                    explicitado na Política de Privacidade do site.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>

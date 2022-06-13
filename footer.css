@@ -1,0 +1,106 @@
+
+/* FOOTER */
+
+footer .newsletter {
+    background-color: #00002d;
+}
+footer .newsletter-centro {
+    max-width: 1180px;
+    padding: 32px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+footer .newsletter-centro form {
+    margin-right: 50px;
+}
+footer .newsletter span {
+    font-size: 32px;
+    font-weight: 400;
+    margin-right: 62px;
+    text-transform: uppercase;
+}
+footer .newsletter input {
+    width: 200px;
+    color: white;
+    background-color: #00002d;
+    margin-right: 24px;
+    border: none;
+    border-bottom: solid 1px white;
+    padding-bottom: 3px;
+}
+footer .newsletter input::-webkit-input-placeholder {
+    color: white;
+}
+footer .newsletter button {
+    color: white;
+    width: 130px;
+    height: 48px;
+    text-transform: uppercase;
+    background-color: #009baa;
+    border: none;
+}
+.footer-conteudo {
+    background: #e1dcd5;
+}
+.footer-centro {
+    display: flex;
+    height: 422px;
+    align-items: center;
+    max-width: 1180px;
+    margin: auto;
+    justify-content: space-between;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+.footer-item .texto-item {
+    font-size: 12px;
+    margin-bottom: 34px;
+    margin-top: 16px;
+}
+.footer-item .social svg {
+    margin-right: 25px;
+}
+.footer-item .social svg:last-child {
+    margin-right: 0px;
+}
+.footer-item:last-child {
+    text-align: right;
+    align-items: flex-end;
+}
+.footer-item:last-child button {
+    background-color: #009baa;
+    width: 221px;
+    height: 48px;
+    color: white;
+    border: none;
+}
+.subfooter .cnpj {
+    position: absolute;
+    left: 47%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.subfooter {
+    position: relative;
+    max-width: 1180px;
+    margin: auto;
+    height: 258px;
+    margin-bottom: 70px;
+}
+.subfooter .texto {
+    font-size: 11px;
+    margin-top: 40px;
+    margin-top: 30px;
+    width: 104%;
+}
+.subfooter img {
+    margin-top: 30px;
+}
+.subfooter .texto a {
+    color: #0a67be;
+}
